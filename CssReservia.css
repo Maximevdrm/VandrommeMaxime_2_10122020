@@ -1,0 +1,20 @@
+/* Polices d'écriture */
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+#logo
+{
+    display: flex;
+}
+#navigation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#navigation li
+{
+    margin-right: 20px;
+    margin-top: 0px;
+}
