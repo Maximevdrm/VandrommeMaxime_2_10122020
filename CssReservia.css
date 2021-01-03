@@ -81,5 +81,124 @@ nav p
     margin-top: 1%;
 }
 
-
+/* partie hébergements */
+#hebergements
+{
+    display: flex;
+    justify-content: space-around;
+    max-height: 60em;
+}
+#lieu
+{
+    display: flex;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    max-width: 60%;
+    padding: 40px;
+    border-radius: 30px;
+    justify-content: space-around;
+    justify-items: space-around;
+}
+.img1
+{
+    max-width: 250px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 10px solid;
+    border-bottom: white 100px solid;
+    border-radius: 40px;
+}
+.img2
+{
+    max-width: 250px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 10px solid;
+    border-bottom: white 100px solid;
+    border-radius: 40px;
+}
+.img3
+{
+    max-width: 250px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 10px solid;
+    border-bottom: white 100px solid;
+    border-radius: 40px;
+}
+.img4
+{
+    max-width: 250px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 10px solid;
+    border-bottom: white 100px solid;
+    border-radius: 40px;
+}
+.img5
+{
+    max-width: 250px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 10px solid;
+    border-bottom: white 100px solid;
+    border-radius: 40px;
+}
+.img6
+{
+    max-width: 250px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 10px solid;
+    border-bottom: white 100px solid;
+    border-radius: 40px;
+}
+/* partie activités */
+#populaire
+{
+    display: flex;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    max-width: 30%;
+    padding: 40px;
+    border-radius: 30px;
+    justify-content: space-around;
+    justify-items: space-around;
+}
+.popu1
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 300px solid;
+    border-bottom: white 10px solid;
+    border-radius: 40px;
+}
+.popu2
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 300px solid;
+    border-bottom: white 10px solid;
+    border-radius: 40px;
+}
+.popu3
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-top: white 10px solid;
+    border-left: white 10px solid;
+    border-right: white 300px solid;
+    border-bottom: white 10px solid;
+    border-radius: 40px;
+}
 /* Pied de page */
