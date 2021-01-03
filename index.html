@@ -11,14 +11,11 @@
 
   <body>
     <header>
-      <nav>
-        <a id="logo" href="index.html"><img src="images/logo/Reservia.svg" alt="Logo Reservia" /></a>
-
-        <ul id="navigation">
-          <li><a href="#hebergements">Hébergements</a></li>
-          <li><a href="#activites">Activités</a></li>
-          <li><a href="#">S'inscrire</a></li>
-        </ul>
+      <img src="images/logo/Reservia.svg" alt="Logo Reservia" />
+      <nav id="navigation">
+        <a href="#hebergements">Hébergements</a>
+        <a href="#activites">Activités</a>
+        <a href="#">S'inscrire</a>
       </nav>
     </header>
 
@@ -28,15 +25,17 @@
         <p>En plein centre ville ou en pleine nature</p>
         <nav>
           <form method="POST" action="traitement.php">
-            <p>
-              <label for="ville"><i class="fas fa-map-marker-alt"></i></label>
+            <p id="barre_recherche">
+              <i class="fas fa-map-marker-alt"></i>
               <input type="text" name="ville" id="ville" value="Marseille, France" />
               <input type="submit" value="Rechercher" /> <br />
+            </p>
+            <p id="filtres">
               Filtres
-              <input type="checkbox" name="Economique" id="Economique" /><label for="Economique">Économique</label>
-              <input type="checkbox" name="Familial" id="Familial" /><label for="Familial">Familial</label>
-              <input type="checkbox" name="Romantique" id="Romantique" /><label for="Romantique">Romantique</label>
-              <input type="checkbox" name="Animaux" id="Animaux" /><label for="Animaux">Animaux autorisés</label>
+              <input type="checkbox" name="Economique" id="Economique" /><label for="Economique"><i id="billet" class="fas fa-money-bill-wave"></i>Économique</label>
+              <input type="checkbox" name="Familial" id="Familial" /><label for="Familial"><i id="enfant" class="fas fa-child"></i>Familial</label>
+              <input type="checkbox" name="Romantique" id="Romantique" /><label for="Romantique"><i id="coeur" class="fas fa-heart"></i>Romantique</label>
+              <input type="checkbox" name="Animaux" id="Animaux" /><label for="Animaux"><i id="chien" class="fas fa-dog"></i>Animaux autorisés</label>
             </p>
           </form>
           <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>

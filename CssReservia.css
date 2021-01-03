@@ -1,20 +1,85 @@
-/* Polices d'écriture */
 body
 {
     font-family: 'Raleway', sans-serif;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-#logo
-{
-    display: flex;
-}
-#navigation
+/* En tête */
+header
 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }
-#navigation li
+#navigation a:hover
 {
-    margin-right: 20px;
-    margin-top: 0px;
+    border-top: 2px solid #0065FC;
+    padding-top: 13%;
+    color: #0065FC;
 }
+#navigation
+{
+    text-decoration: none;
+}
+
+/* Section 1 */
+#barre_recherche
+{
+    background-color: #f2f2f2;
+    max-width: 33%;
+}
+[type="checkbox"]
+{
+    opacity: 0;
+}
+label
+{
+    padding: 0px;
+    border: solid #f2f2f2;
+    border-radius: 100px;
+    padding: 1px 2px 1px 0;
+}
+#filtres
+{
+    display: flex;
+    justify-content: space-around;
+    max-width: 40%;
+    align-items: flex-start;
+}
+#billet
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: solid #DEEBFF;
+    border-radius: 100%;
+}
+#enfant
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: solid #DEEBFF;
+    border-radius: 100%;
+}
+#coeur
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: solid #DEEBFF;
+    border-radius: 100%;
+}
+#chien
+{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: solid #DEEBFF;
+    border-radius: 100%;
+}
+nav p
+{
+    margin-top: 1%;
+}
+
+
+/* Pied de page */
