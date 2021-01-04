@@ -1,8 +1,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 /* En tête */
 header
@@ -85,7 +85,7 @@ nav p
 #hebergements
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-height: 60em;
 }
 #lieu
@@ -94,111 +94,153 @@ nav p
     background-color: #f2f2f2;
     flex-wrap: wrap;
     max-width: 60%;
-    padding: 40px;
+    padding: 3%;
     border-radius: 30px;
     justify-content: space-around;
     justify-items: space-around;
 }
-.img1
+#chambre1
 {
-    max-width: 250px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 10px solid;
-    border-bottom: white 100px solid;
-    border-radius: 40px;
+    background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') no-repeat;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
 }
-.img2
+#banniere_chambre1
 {
-    max-width: 250px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 10px solid;
-    border-bottom: white 100px solid;
-    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    max-width: 240px;
+    max-height: 38%;
+    border-bottom: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-.img3
+#chambre2
 {
-    max-width: 250px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 10px solid;
-    border-bottom: white 100px solid;
-    border-radius: 40px;
+    background: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') no-repeat;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
 }
-.img4
+#banniere_chambre2
 {
-    max-width: 250px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 10px solid;
-    border-bottom: white 100px solid;
-    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 240px;
+    max-height: 38%;
+    border-bottom: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-.img5
+#chambre3
 {
-    max-width: 250px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 10px solid;
-    border-bottom: white 100px solid;
-    border-radius: 40px;
+    background: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') no-repeat;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
 }
-.img6
+#banniere_chambre3
 {
-    max-width: 250px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 10px solid;
-    border-bottom: white 100px solid;
-    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 240px;
+    max-height: 38%;
+    border-bottom: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-/* partie activités */
-#populaire
+#chambre4
 {
-    display: flex;
-    background-color: #f2f2f2;
-    flex-wrap: wrap;
-    max-width: 30%;
-    padding: 40px;
-    border-radius: 30px;
-    justify-content: space-around;
-    justify-items: space-around;
+    background: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') no-repeat;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
 }
-.popu1
+#banniere_chambre4
 {
-    max-width: 200px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 300px solid;
-    border-bottom: white 10px solid;
-    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 240px;
+    max-height: 38%;
+    border-bottom: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-.popu2
+#chambre5
 {
-    max-width: 200px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 300px solid;
-    border-bottom: white 10px solid;
-    border-radius: 40px;
+    background: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') no-repeat;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
 }
-.popu3
+#banniere_chambre5
 {
-    max-width: 200px;
-    max-height: 200px;
-    border-top: white 10px solid;
-    border-left: white 10px solid;
-    border-right: white 300px solid;
-    border-bottom: white 10px solid;
-    border-radius: 40px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 240px;
+    max-height: 38%;
+    border-bottom: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#chambre6
+{
+    background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') no-repeat;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+}
+#banniere_chambre6
+{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 240px;
+    max-height: 38%;
+    border-bottom: solid white 5px;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 /* Pied de page */
