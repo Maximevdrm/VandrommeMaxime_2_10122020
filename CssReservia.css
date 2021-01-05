@@ -98,6 +98,7 @@ nav p
     border-radius: 30px;
     justify-content: space-around;
     justify-items: space-around;
+    margin-right: 1%;
 }
 #chambre1
 {
@@ -242,5 +243,84 @@ nav p
     border-right: solid white 5px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+#populaire
+{
+    display: flex;
+    background-color: #f2f2f2;
+    flex-wrap: wrap;
+    max-width: 30%;
+    padding: 3%;
+    border-radius: 30px;
+    justify-content: space-around;
+    justify-items: space-around;
+    margin-left: 1%;
+}
+#populaire1
+{
+    background: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') no-repeat;
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-bottom: solid white 5px;
+}
+#banniere_populaire1
+{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 60%;
+    max-height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 1%;
+}
+#populaire2
+{
+    background: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') no-repeat;
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-bottom: solid white 5px;
+}
+#banniere_populaire2
+{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 60%;
+    max-height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 1%;
+}
+#populaire3
+{
+    background: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') no-repeat;
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    border-top: solid white 5px;
+    border-left: solid white 5px;
+    border-bottom: solid white 5px;
+}
+#banniere_populaire3
+{
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 60%;
+    max-height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 1%;
 }
 /* Pied de page */
