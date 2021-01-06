@@ -26,22 +26,22 @@
         <nav>
           <form method="POST" action="traitement.php">
             <p id="barre_recherche">
-              <i class="fas fa-map-marker-alt"></i>
+              <i class="fas fa-map-marker-alt" id="indic"></i>
               <input type="text" name="ville" id="ville" value="Marseille, France" />
-              <input type="submit" value="Rechercher" /> <br />
+              <input type="submit" value="Rechercher" id="bouton" /> <br />
             </p>
             <p id="filtres">
-              Filtres
-              <input type="checkbox" name="Economique" id="Economique" /><label for="Economique"
+              <span id="nomfil">Filtres</span>
+              <input type="checkbox" name="Economique" id="Economique" /><label class="fil" for="Economique"
                 ><i id="billet" class="fas fa-money-bill-wave"></i>Économique</label
               >
-              <input type="checkbox" name="Familial" id="Familial" /><label for="Familial"
+              <input type="checkbox" name="Familial" id="Familial" /><label class="fil" for="Familial"
                 ><i id="enfant" class="fas fa-child"></i>Familial</label
               >
-              <input type="checkbox" name="Romantique" id="Romantique" /><label for="Romantique"
+              <input type="checkbox" name="Romantique" id="Romantique" /><label class="fil" for="Romantique"
                 ><i id="coeur" class="fas fa-heart"></i>Romantique</label
               >
-              <input type="checkbox" name="Animaux" id="Animaux" /><label for="Animaux"
+              <input type="checkbox" name="Animaux" id="Animaux" /><label class="fil" for="Animaux"
                 ><i id="chien" class="fas fa-dog"></i>Animaux autorisés</label
               >
             </p>

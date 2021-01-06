@@ -1,8 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 1rem;
 }
 /* En tête */
 header
@@ -16,19 +15,43 @@ header
 #navigation a:hover
 {
     border-top: 2px solid #0065FC;
-    padding-top: 13%;
+    padding-top: 2rem;
     color: #0065FC;
 }
-#navigation
+#navigation a
 {
+    padding: 1rem;
+    color: black;
     text-decoration: none;
 }
 
 /* Section 1 */
-#barre_recherche
+#ville
 {
+    padding: 1rem;
+    border: 2px solid #f2f2f2;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+#indic
+{
+    padding: 1rem;
     background-color: #f2f2f2;
-    max-width: 33%;
+    border-top: #f2f2f2 solid 1px;
+    border-bottom: #f2f2f2 solid 3px;
+    border-radius: 0.5rem 0 0 0.5rem;
+    margin-right: -6px;
+}
+#bouton
+{
+    font-size: 1em;
+    padding: 1rem;
+    background-color: #0065FC;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin-left: -6px;
+    font-weight: bold;
 }
 [type="checkbox"]
 {
@@ -38,48 +61,55 @@ label
 {
     padding: 0px;
     border: solid #f2f2f2;
-    border-radius: 100px;
-    padding: 1px 2px 1px 0;
+    border-radius: 10rem;
 }
 #filtres
 {
     display: flex;
-    justify-content: space-around;
-    max-width: 40%;
-    align-items: flex-start;
+    align-items: baseline;
+}
+#nomfil
+{
+    font-weight: bold;
+}
+.fil
+{
+    font-weight: bold;
+    padding-right: 1rem;
+}
+.fil:hover
+{
+    background-color: #deebff ;
 }
 #billet
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border: solid #DEEBFF;
     border-radius: 100%;
+    padding: 1rem;
 }
 #enfant
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border: solid #DEEBFF;
     border-radius: 100%;
+    padding: 1rem;
 }
 #coeur
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border: solid #DEEBFF;
     border-radius: 100%;
+    padding: 1rem;
 }
 #chien
 {
     color: #0065FC;
     background-color: #DEEBFF;
-    border: solid #DEEBFF;
     border-radius: 100%;
+    padding: 1rem;
 }
-nav p
-{
-    margin-top: 1%;
-}
+
 
 /* partie hébergements */
 #hebergements
