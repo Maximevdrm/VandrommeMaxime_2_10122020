@@ -127,46 +127,42 @@ label
 /* partie hébergements */
 #hebergements
 {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2em;
     max-height: 60em;
 }
 #lieu
 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    gap: 1em;
     background-color: #f2f2f2;
-    flex-wrap: wrap;
-    padding: 2%;
     border-radius: 30px;
-    justify-content: space-between;
-    justify-items: space-around;
-    margin-right: 1%;
-}
-.marseille
-{
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    width: 100%;
+    grid-column: 1;
+    padding: 1em 2em 1em 2em;
 }
 .afficherplus
 {
-    display: flex;
-    justify-content: flex-end;
     width: 100%;
     margin-right: 80%;
-    flex-wrap: nowrap;
 }
 .afficherplus p
 {
     font-weight: bold;
 }
+.marseille
+{
+    grid-column: 1/4;
+    grid-row: 1;
+}
 #chambre1
 {
     background: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg') no-repeat;
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
+    width: 20em;
+    height: 18em;
+    border-radius: 1.5em;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
@@ -178,7 +174,7 @@ label
     position: absolute;
     bottom: 0;
     background-color: white;
-    max-width: 240px;
+    width: 97%;
     max-height: 38%;
     border-bottom: solid white 5px;
     border-left: solid white 5px;
@@ -189,9 +185,9 @@ label
 #chambre2
 {
     background: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg') no-repeat;
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
+    width: 20em;
+    height: 18em;
+    border-radius: 1.5em;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
@@ -203,7 +199,7 @@ label
     position: absolute;
     bottom: 0;
     background-color: white;
-    width: 240px;
+    width: 97%;
     max-height: 38%;
     border-bottom: solid white 5px;
     border-left: solid white 5px;
@@ -214,9 +210,9 @@ label
 #chambre3
 {
     background: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg') no-repeat;
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
+    width: 20em;
+    height: 18em;
+    border-radius: 1.5em;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
@@ -228,7 +224,7 @@ label
     position: absolute;
     bottom: 0;
     background-color: white;
-    width: 240px;
+    width: 97%;
     max-height: 38%;
     border-bottom: solid white 5px;
     border-left: solid white 5px;
@@ -239,9 +235,9 @@ label
 #chambre4
 {
     background: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg') no-repeat;
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
+    width: 20em;
+    height: 18em;
+    border-radius: 1.5em;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
@@ -253,7 +249,7 @@ label
     position: absolute;
     bottom: 0;
     background-color: white;
-    width: 240px;
+    width: 97%;
     max-height: 38%;
     border-bottom: solid white 5px;
     border-left: solid white 5px;
@@ -264,9 +260,9 @@ label
 #chambre5
 {
     background: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg') no-repeat;
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
+    width: 20em;
+    height: 18em;
+    border-radius: 1.5em;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
@@ -278,7 +274,7 @@ label
     position: absolute;
     bottom: 0;
     background-color: white;
-    width: 240px;
+    width: 97%;
     max-height: 38%;
     border-bottom: solid white 5px;
     border-left: solid white 5px;
@@ -289,9 +285,9 @@ label
 #chambre6
 {
     background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') no-repeat;
-    width: 250px;
-    height: 200px;
-    border-radius: 20px;
+    width: 20em;
+    height: 18em;
+    border-radius: 1.5em;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
@@ -303,7 +299,7 @@ label
     position: absolute;
     bottom: 0;
     background-color: white;
-    width: 240px;
+    width: 97%;
     max-height: 38%;
     border-bottom: solid white 5px;
     border-left: solid white 5px;
@@ -311,24 +307,22 @@ label
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+
+/* partie populaire */
+
 #populaire
 {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 2fr;
     background-color: #f2f2f2;
-    flex-wrap: wrap;
-    max-width: 30%;
-    padding: 3%;
+    padding: 1em 2em 1em 2em;
     border-radius: 30px;
-    justify-content: space-between;
-    justify-items: space-between;
-    align-content: space-between;
-    margin-left: 1%;
 }
 #populaire1
 {
     background: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg') no-repeat;
-    width: 400px;
-    height: 150px;
+    width: 30em;
+    height: 11em;
     border-radius: 20px;
     position: relative;
     border-top: solid white 5px;
@@ -341,8 +335,8 @@ label
     position: absolute;
     right: 0;
     background-color: white;
-    width: 60%;
-    max-height: 100%;
+    width: 20em;
+    height: 11em;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding-left: 1%;
@@ -350,14 +344,13 @@ label
 #populaire2
 {
     background: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg') no-repeat;
-    width: 400px;
-    height: 150px;
+    width: 30em;
+    height: 11em;
     border-radius: 20px;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
     border-bottom: solid white 5px;
-    margin-top: 5%;
     position: relative;
 }
 #banniere_populaire2
@@ -365,8 +358,8 @@ label
     position: absolute;
     right: 0;
     background-color: white;
-    width: 60%;
-    max-height: 100%;
+    width: 20em;
+    height: 11em;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding-left: 1%;
@@ -374,14 +367,13 @@ label
 #populaire3
 {
     background: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg') no-repeat;
-    width: 400px;
-    height: 150px;
+    width: 30em;
+    height: 11em;
     border-radius: 20px;
     position: relative;
     border-top: solid white 5px;
     border-left: solid white 5px;
     border-bottom: solid white 5px;
-    margin-top: 5%;
     position: relative;
 }
 #banniere_populaire3
@@ -389,8 +381,8 @@ label
     position: absolute;
     right: 0;
     background-color: white;
-    width: 60%;
-    max-height: 100%;
+    width: 20em;
+    height: 11em;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     padding-left: 1%;
