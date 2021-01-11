@@ -3,6 +3,10 @@ body
     font-family: 'Raleway', sans-serif;
 
 }
+.ombre
+{
+    box-shadow: 3px 3px 3px grey;
+}
 /* En tête */
 header
 {
@@ -474,108 +478,121 @@ label
     background: url('images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg') no-repeat;
     width: 25em;
     height: 33em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-radius: 1.5em;
     position: relative;
 }
 #activite1 h2
 {
     position: absolute;
-    bottom: 0;
-    width: 15.9em;
+    bottom: -0.5em;
     background-color: white;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    width: 93%;
+    max-height: 30%;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #activite2
 {
     background: url('images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg') no-repeat;
     width: 25em;
     height: 16em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    border-radius: 1.5em;
     position: relative;
 }
 #activite2 h2
 {
     position: absolute;
-    bottom: -2em;
-    width: 15.9em;
+    bottom: -0.84em;
     background-color: white;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    width: 92.5%;
+    max-height: 30%;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #activite3
 {
     background: url('images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg') no-repeat;
     width: 25em;
-    height: 9em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    height: 12em;
+    border-radius: 1.5em;
     position: relative;
 }
 #activite3 h2
 {
     position: absolute;
-    bottom: -2.2em;
-    width: 15.9em;
+    bottom: -0.84em;
     background-color: white;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    width: 92.5%;
+    max-height: 30%;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #activite4
 {
     background: url('images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg') no-repeat;
     width: 25em;
-    height: 30em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    height: 32.8em;
+    border-radius: 1.5em;
     position: relative;
 }
 #activite4 h2
 {
     position: absolute;
-    bottom: -2.2em;
-    width: 15.9em;
+    bottom: -0.9em;
     background-color: white;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    width: 92.5%;
+    max-height: 30%;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 3px 3px 3px grey;
 }
 #activite5
 {
     background: url('images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg') no-repeat;
     width: 25em;
-    height: 12.5em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    height: 15em;
+    border-radius: 1.5em;
     position: relative;
 }
 #activite5 h2
 {
     position: absolute;
-    bottom: -2em;
-    width: 15.9em;
+    bottom: -0.84em;
     background-color: white;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    width: 92.5%;
+    max-height: 30%;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 #activite6
 {
     background: url('images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg') no-repeat;
     width: 25em;
-    height: 12.5em;
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    height: 15em;
+    border-radius: 1.5em;
     position: relative;
 }
 #activite6 h2
 {
     position: absolute;
-    bottom: -2em;
-    width: 15.9em;
+    bottom: -0.84em;
     background-color: white;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
+    width: 92.5%;
+    max-height: 30%;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 /* Pied de page */
 footer
