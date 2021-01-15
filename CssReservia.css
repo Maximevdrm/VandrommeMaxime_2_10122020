@@ -1,8 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    margin: 0 5% 0 5%;
-
+    width: 100%;
 }
 .ombre
 {
@@ -15,11 +14,17 @@ header
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    margin: 0 5% 0 5%;
+    width: 90%;
+}
+#navigation img 
+{
+    margin-right: 78.5em;
 }
 #navigation a:hover
 {
     border-top: 2px solid #0065FC;
-    padding-top: 1.5rem;
+    padding-top: 2.3em;
     color: #0065FC;
 }
 #navigation a
@@ -37,6 +42,11 @@ header
     color: black;
 }
 /* Section 1 */
+#recherche
+{
+    margin: 0 5% 0 5%;
+    width: 100%;
+}
 #ville
 {
     padding: 1rem;
@@ -134,6 +144,8 @@ label
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 2em;
+    margin: 0 5% 0 5%;
+    width: 90%;
 }
 #lieu
 {
@@ -141,10 +153,12 @@ label
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.5em;
     gap: 1.5em;
+    row-gap: 2em;
     background-color: #f2f2f2;
     border-radius: 2em;
     grid-column: 1;
     padding: 2em 2em 2em 3.5em;
+    width: 90%;
 }
 .afficherplus
 {
@@ -257,7 +271,6 @@ label
     border-top: solid white 5px;
     border-left: solid white 5px;
     border-right: solid white 5px;
-    position: relative;
 }
 #banniere_chambre4
 {
@@ -364,6 +377,7 @@ label
     background-color: #f2f2f2;
     padding: 2em 2em 2em 4.5em;
     border-radius: 30px;
+    width: 80%;
 }
 #fleche
 {
@@ -481,9 +495,10 @@ label
     gap: 1em;
     grid-gap: 1em;
     max-height: 40em;
-    margin: 2em 0 2em 0;
+    margin: 0 3.6% 0 3.6%;
     border-radius: 2em;
     padding: 0 2em 0 2em;
+    width: 93%;
 }
 #activites h2
 {
@@ -499,31 +514,43 @@ label
 {
     grid-column: 1;
     grid-row: 2/14;
+    width: 22em;
+    height: 33em;
 }
 #act2
 {
     grid-column: 2;
     grid-row: 2/9;
+    width: 22em;
+    height: 18em;
 }
 #act3
 {
     grid-column: 2;
     grid-row: 9/14;
+    width: 22em;
+    height: 12em;
 }
 #act4
 {
     grid-column: 3;
     grid-row: 2/14;
+    width: 22em;
+    height: 32.8em;
 }
 #act5
 {
     grid-column: 4;
     grid-row: 2/8;
+    width: 22em;
+    height: 15em;
 }
 #act6
 {
     grid-column: 4;
     grid-row: 8/14;
+    width: 22em;
+    height: 15em;
 }
 #activite1
 {
@@ -538,9 +565,10 @@ label
 #activite1 h2
 {
     position: absolute;
-    bottom: -0.5em;
+    bottom: -0.83em;
+    left: 0;
     background-color: white;
-    width: 93%;
+    width: 92.4%;
     max-height: 30%;
     border-left: solid white 5px;
     border-right: solid white 5px;
@@ -553,7 +581,7 @@ label
     background-size: cover;
     background-position: 50% -9em;
     width: 22em;
-    height: 16em;
+    height: 18em;
     border-radius: 1.5em;
     position: relative;
 }
@@ -606,7 +634,7 @@ label
     position: absolute;
     bottom: -0.9em;
     background-color: white;
-    width: 92.5%;
+    width: 92.2%;
     max-height: 30%;
     border-left: solid white 5px;
     border-right: solid white 5px;
@@ -656,12 +684,17 @@ label
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+#activites h2
+{
+    font-size: 1.3em;
+}
 /* Pied de page */
 footer
 {
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 footer ul
 {
@@ -676,26 +709,72 @@ footer li:hover
 
 /* Partie responsive */
 
-@media (max-width: 1024px)
+@media (max-width: 375px)
 {
+    body
+    {
+        max-width: 375px;
+        margin: 0 0 0 0;
+    }
+    header 
+    {
+        margin: 0 0 0 0;
+    }
+    #navigation
+    {
+        display: grid;
+        grid-template-columns: 187.5px 187.5px;
+        grid-template-rows: 4em 3em;
+        width: 100%;
+        border-bottom: #f2f2f2 solid 3px;
+    }
+    #logoreservia
+    {
+        grid-row: 1;
+        grid-column: 1;
+        padding: 1em 0 0 1em;
+    }
+    #inscription
+    {
+        grid-row: 1;
+        grid-column: 2;
+        margin-top: 1em;
+        margin-left: 3em;
+    }
+    #bouttonheber
+    {
+        grid-row: 2;
+        grid-column: 1;
+        margin-left: 1em;
+    }
+    #bouttonacti
+    {
+        grid-row: 2;
+        grid-column: 2;
+        margin-left: 0.8em;
+    }
     #hebergement
     {
         display: grid;
+        grid-template-columns: 375px;
         grid-template-rows: 1fr 2fr;
     }
     #populaire
     {
         grid-row: 1;
+        grid-column: 1;
         border-radius: 0px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         grid-gap: 1em;
         gap: 1em;
+        width: 100%;
     }
     #lieu
     {
         grid-row: 2;
+        grid-column: 1;
         background-color: #FFFFFF;
         display: flex;
         flex-direction: column;
@@ -705,5 +784,20 @@ footer li:hover
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+    #filtres
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #activites
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    footer
+    {
+        display: flex;
+        flex-direction: column;
     }
 }
