@@ -709,12 +709,11 @@ footer li:hover
 
 /* Partie responsive */
 
-@media (max-width: 375px)
+@media (max-width: 480px)
 {
     body
     {
-        max-width: 375px;
-        margin: 0 0 0 0;
+        width: 100%;
     }
     header 
     {
@@ -723,7 +722,7 @@ footer li:hover
     #navigation
     {
         display: grid;
-        grid-template-columns: 187.5px 187.5px;
+        grid-template-columns: 50% 50%;
         grid-template-rows: 4em 3em;
         width: 100%;
         border-bottom: #f2f2f2 solid 3px;
@@ -739,24 +738,40 @@ footer li:hover
         grid-row: 1;
         grid-column: 2;
         margin-top: 1em;
-        margin-left: 3em;
+        margin-left: 8em;
     }
     #bouttonheber
     {
         grid-row: 2;
         grid-column: 1;
-        margin-left: 1em;
+        margin-left: 2em;
     }
     #bouttonacti
     {
         grid-row: 2;
         grid-column: 2;
-        margin-left: 0.8em;
+        margin-left: 5em;
     }
+    #trouvez, #centre_ville
+    {
+        width: 100%;
+    }
+    #resultat
+    {
+        width: 90%;
+    }
+
+    #filtres
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     #hebergement
     {
         display: grid;
-        grid-template-columns: 375px;
+        grid-template-columns: 100%;
         grid-template-rows: 1fr 2fr;
     }
     #populaire
@@ -768,8 +783,9 @@ footer li:hover
         flex-direction: column;
         justify-content: space-between;
         grid-gap: 1em;
-        gap: 1em;
+        gap: 2em;
         width: 100%;
+        margin: 0 0 0 -4em;
     }
     #lieu
     {
@@ -778,17 +794,8 @@ footer li:hover
         background-color: #FFFFFF;
         display: flex;
         flex-direction: column;
-    }
-    #recherche h1, #recherche p
-    {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-    }
-    #filtres
-    {
-        display: flex;
-        flex-wrap: wrap;
+        width: 100%;
+        margin: -3em 0 0 0;
     }
     #activites
     {
@@ -799,5 +806,17 @@ footer li:hover
     {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        margin: 100em 0 0 -1em;
+        padding: 0 0 0 5em;
+    }
+    footer ul 
+    {
+        margin: 1em 0 1em 0;
+        padding: 0 0 2em 0;
+    }
+    footer li 
+    {
+        margin: 1em 0 0 0 ;
     }
 }
