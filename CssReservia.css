@@ -797,17 +797,158 @@ footer li:hover
         width: 100%;
         margin: -3em 0 0 0;
     }
+
+    .marseille
+    {
+        margin-left: -1.8em;
+        margin-bottom: -0.3em;
+    }
+    #chambre1
+    {
+        width: 24em;
+        margin-left: -3em;
+        background-size: cover;
+    }
+    #banniere_chambre1
+    {
+        width: 23.5em;
+    }
+    #chambre2
+    {
+        width: 24em;
+        margin-left: -3em;
+        background-size: cover;
+        background-position: 50% -3em;
+    }
+    #banniere_chambre2
+    {
+        width: 23.5em;
+    }
+    #chambre3
+    {
+        width: 24em;
+        margin-left: -3em;
+        background-size: cover;
+        background-position: 50% -3em;
+    }
+    #banniere_chambre3
+    {
+        width: 23.5em;
+    }
+    #chambre4
+    {
+        width: 24em;
+        margin-left: -3em;
+        background-size: cover;
+        background-position: 50% -7em;
+    }
+    #banniere_chambre4
+    {
+        width: 23.5em;
+    }
+    #chambre5
+    {
+        width: 24em;
+        margin-left: -3em;
+        background-size: cover;
+    }
+    #banniere_chambre5
+    {
+        width: 23.5em;
+    }
+    #chambre6
+    {
+        width: 24em;
+        margin-left: -3em;
+        background-size: cover;
+        background-position: 50% -13em;
+    }
+    #banniere_chambre6
+    {
+        width: 23.5em;
+    }
+    .afficherplus
+    {
+        margin-left: -2em;
+    }
+
     #activites
     {
         display: flex;
         flex-direction: column;
+    }
+    #activite1
+    {
+        width: 23.5em;
+        height: 13em;
+        margin-left: -0.5em;
+        background-position: 50% -2em;
+    }
+    #activite1 h2
+    {
+        width: 16.8em;
+    }
+    #activite2
+    {
+        width: 23.5em;
+        height: 13em;
+        margin-left: -0.5em;
+        background-position: 50% -12em;
+    }
+    #activite2 h2
+    {
+        width: 16.8em;
+    }
+    #activite3
+    {
+        width: 23.5em;
+        height: 13em;
+        margin-left: -0.5em;
+    }
+    #activite3 h2
+    {
+        width: 16.8em;
+    }
+    #activite4
+    {
+        margin-top: 1em;
+        width: 23.5em;
+        height: 13em;
+        background-position: 50% 50%;
+        margin-left: -0.5em;
+    }
+    #activite4 h2
+    {
+        width: 16.8em;
+    }
+    #activite5
+    {
+        width: 23.5em;
+        height: 13em;
+        background-size: cover;
+        margin-left: -0.5em;
+    }
+    #activite5 h2
+    {
+        width: 16.8em;
+    }
+    #activite6
+    {
+        width: 23.5em;
+        height: 13em;
+        margin-left: -0.5em;
+        background-position: 50% -2em;
+    }
+    #activite6 h2
+    {
+        width: 16.8em;
     }
     footer
     {
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin: 100em 0 0 -1em;
+        margin: 52em 0 0 -1em;
         padding: 0 0 0 5em;
     }
     footer ul 
