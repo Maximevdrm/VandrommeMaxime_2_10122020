@@ -707,7 +707,7 @@ footer li:hover
     text-decoration: underline;
 }
 
-/* Partie responsive */
+/* Partie responsive téléphone */
 
 @media (max-width: 480px)
 {
@@ -959,5 +959,88 @@ footer li:hover
     footer li 
     {
         margin: 1em 0 0 0 ;
+    }
+}
+
+/* Partie responsive tablette */
+
+@media (max-width: 768px)
+{
+    body 
+    {
+        width: 100%;
+    }
+    header 
+    {
+        margin: 1em 1em 1em 1em;
+    }
+    #navigation
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    #filtres
+    {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+    #hebergements
+    {
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 4fr 5fr;
+    }
+    #populaire
+    {
+        grid-row: 1;
+        grid-column: 1;
+        width: 90%;
+    }
+    #populaire1
+    {
+        width: 32em;
+        height: 11em;
+        background-size: cover;
+    }
+    #banniere_populaire1
+    {
+        height: 11em;
+    }
+    #populaire2
+    {
+        width: 32em;
+        height: 11em;
+        background-size: cover;
+    }
+    #banniere_populaire2
+    {
+        height: 11em;
+    }
+    #populaire3
+    {
+        width: 32em;
+        height: 11em;
+        background-size: cover;
+        background-position: -7em -22em;
+    }
+    #banniere_populaire3
+    {
+        height: 11em;
+    }
+    #lieu
+    {
+        grid-row: 2;
+        grid-column: 1;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        margin-left: -2em;
+    }
+    .marseille
+    {
+        width: 100%;
     }
 }
