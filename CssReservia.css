@@ -74,6 +74,10 @@ body
     margin-left: -6px;
     font-weight: bold;
 }
+#loupe
+{
+    display: none;
+}
 [type="checkbox"]
 {
     opacity: 0;
@@ -786,12 +790,40 @@ footer li:hover
         width: 85%;
         font-size: 0.9em;
     }
+    #bouton
+    {
+        display: none;
+    }
+    #loupe
+    {
+        display: unset;
+        font-size: 1em;
+        padding: 1em;
+        background-color: #0065FC;
+        color: white;
+        border: unset;
+        border-radius: 1em 1em 1em 1em;
+        margin-left: -1em;
+        font-weight: bold;
+    }
 
+    .cocher
+    {
+        display: none;
+    }
     #filtres
     {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+    #nomfil
+    {
+        margin-bottom: 0.5em;
+    }
+    .fil
+    {
+        margin-bottom: 0.5em;
     }
     #hebergement
     {
@@ -1063,34 +1095,22 @@ footer li:hover
         grid-column: 1;
         grid-row: 2;
     }
-    #Economique
-    {
-        display: none;
-    }
     #Familials
     {
         grid-column: 2;
         grid-row: 2;
-    }
-    #Familial
-    {
-        display: none;
     }
     #Romantiques
     {
         grid-column: 1;
         grid-row: 3;
     }
-    #Romantique
-    {
-        display: none;
-    }
     #Animaux_autorisés
     {
         grid-column: 2;
         grid-row: 3;
     }
-    #Animaux
+    .cocher
     {
         display: none;
     }
