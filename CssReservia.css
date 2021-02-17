@@ -820,6 +820,7 @@ footer li:hover
         grid-gap: 1em;
         gap: 2em;
         width: 100%;
+        padding: 0 7.5% 10% 7.5%;
     }
     #lieu
     {
@@ -829,6 +830,7 @@ footer li:hover
         display: flex;
         flex-direction: column;
         width: 100%;
+        padding: 0 0 0 5%;
     }
     #fleche
     {
@@ -935,6 +937,7 @@ footer li:hover
     {
         display: flex;
         flex-direction: column;
+        padding: 0 0 0 9%;
     }
     #activite1
     {
