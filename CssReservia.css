@@ -1,7 +1,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 .ombre
@@ -54,10 +54,9 @@ body
 }
 #indic
 {
-    padding: 1rem;
+    padding: 1.1rem 1rem 1.18rem 1rem;
     background-color: #f2f2f2;
-    border-top: #f2f2f2 solid 1px;
-    border-bottom: #f2f2f2 solid 3px;
+
     border-radius: 0.5rem 0 0 0.5rem;
     margin-right: -6px;
 }
@@ -103,6 +102,7 @@ label
 .fil:hover
 {
     background-color: #deebff ;
+    cursor: pointer;
 }
 #billet
 {
@@ -692,6 +692,14 @@ footer li:hover
     text-decoration: underline;
 }
 
+@media (min-width: 1024px)
+{
+    .reduit{
+        width: 90%;
+        margin: auto;
+    }
+}
+
 /* Partie responsive téléphone */
 
 @media (max-width: 375px)
@@ -767,7 +775,7 @@ footer li:hover
     {
         width: 90%;
         display: flex;
-        justify-content: baseline;
+        align-items: baseline;
     }
     #logements
     {
@@ -799,7 +807,6 @@ footer li:hover
     #filtres
     {
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
     }
     #nomfil
@@ -1073,7 +1080,7 @@ footer li:hover
         grid-column: 1;
         grid-row: 3;
     }
-    #Animaux_autorisés
+    #Animaux_autorises
     {
         grid-column: 2;
         grid-row: 3;
