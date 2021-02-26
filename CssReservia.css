@@ -161,6 +161,7 @@ label
     grid-column: 1;
     margin-right: 3%;
     padding: 0 4% 0 4%;
+    width: 85%;
 }
 .afficherplus
 {
@@ -380,6 +381,7 @@ label
     background-color: #f2f2f2;
     border-radius: 30px;
     padding: 5% 0 0 13%;
+    width: 85%;
 }
 #fleche
 {
