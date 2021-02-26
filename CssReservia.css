@@ -724,6 +724,7 @@ footer li:hover
     body
     {
         width: 100%;
+        overflow-x: hidden;
     }
     header 
     {
