@@ -704,7 +704,19 @@ footer li:hover
         margin: auto;
     }
 }
-
+@media(max-width: 1500px){
+    .ombre h2{
+        font-size: 90%;
+    }
+    #chambre6
+{
+    background: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg') no-repeat;
+    background-size: cover;
+    background-position: 25% -7em;}
+    .banniere_populaire p{
+        margin-bottom: 0em;
+    }
+}
 /* Partie responsive téléphone */
 
 @media (max-width: 375px)
